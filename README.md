@@ -15,13 +15,7 @@ To run on android emulator:
 - start the emulator
 - run 'react-native run-android'
 
-To stop or start Intel HAXM, use the following commands:
-Stop:
-sudo kextunload –b com.intel.kext.intelhaxm
-Start:
-sudo kextload –b com.intel.kext.intelhaxm
-
-clearing cache and watchman
-watchman watch-del-all
-rm -rf node_modules/ && npm i
-rm -fr $TMPDIR/react-* or npm start -- -- reset-cache
+Clearing cache and watchman
+- run 'watchman watch-del-all'
+- run 'rm -rf node_modules/ && npm i'
+- run 'rm -fr $TMPDIR/react-* or npm start -- -- reset-cache'
