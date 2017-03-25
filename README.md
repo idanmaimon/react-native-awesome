@@ -1,5 +1,5 @@
 
-React-Native AWESOME!!!
+React-Native GeoNear!!!
 
 Follow react native get started:
 https://facebook.github.io/react-native/docs/getting-started.html#content

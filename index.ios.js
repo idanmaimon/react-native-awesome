@@ -16,4 +16,4 @@ var App = React.createClass({
 
 });
 
-AppRegistry.registerComponent('AwesomeProject', () => App);
+AppRegistry.registerComponent('GeoNearProject', () => App);
