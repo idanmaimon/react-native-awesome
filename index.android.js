@@ -5,7 +5,7 @@ import {
 
 //var MainScreen = require('./components/Main');
 import Home from './components/Home';
-
+import Swiper from './components/swiper';
 
 var App = React.createClass({
 
